@@ -516,12 +516,26 @@ canvas {
     font-family: "Lato", Verdana, Segoe, sans-serif;
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 35vh;
     width: 100%;
     text-align: center;
     color: #000;
     font-size:22px;
     text-shadow: 0 2px 0 rgba(5, 5, 55, 0.8);
+}
+
+.img-circle {
+    width: 30vh;
+    border-radius: 50%;
+    display: block;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 6px rgba(0,0,0,0.6);
+    -o-box-shadow: 5px 5px 3px rgba(0,0,0,0.6);
 }
 
 .caption span.border {
